@@ -1,16 +1,20 @@
-# SpeedCut Export Website
+# SpeedCut Website V3.0.1
 
-เว็บไซต์ผู้ผลิตเครื่องบากท่ออัตโนมัติ SpeedCutThai สำหรับตลาดไทย เวียดนาม อินโดนีเซีย และอาเซียน
+Corporate website base for SpeedCut / RST AsiaPacific.
 
-## Pages
-- Home
-- Products
-- Applications
-- Videos
-- Gallery
-- About
-- Export
-- Contact
+## Included
+- New corporate Home page
+- Sticky industrial header
+- Footer with +66 phone format
+- Contact buttons: Call, WhatsApp, LINE
+- Placeholder images for easy replacement
+- Responsive CSS
+- Basic SEO and Organization Schema
 
-## Upload to GitHub Pages
-แตกไฟล์ ZIP แล้วลากไฟล์ทั้งหมดด้านในขึ้น Repository root จากนั้น Commit changes
+## Replace images later
+- `img/hero-machine.svg` → replace with real machine photo/video
+- `img/factory-placeholder.svg` → replace with factory photo
+
+## Contact format
+- Tel: +66 87 575 7070
+- WhatsApp: https://wa.me/66875757070
