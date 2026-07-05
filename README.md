@@ -1,35 +1,30 @@
-# autocut-web
+# SpeedCutThai Website
 
-Landing page สำหรับเครื่องบากท่ออัตโนมัติ SpeedCutThai / Autocut
+เว็บไซต์สำหรับเครื่องบากท่ออัตโนมัติ SpeedCutThai / Autocut
 
 ## โครงสร้างไฟล์
 
 ```text
-autocut-web/
+speedcut-pro-web/
 ├── index.html
+├── products.html
+├── videos.html
+├── gallery.html
+├── support.html
+├── contact.html
 ├── css/
 │   └── style.css
 ├── js/
+│   └── app.js
 ├── img/
-├── .gitignore
+├── api/
 ├── LICENSE
 └── README.md
 ```
 
-## วิธีใช้งาน
+## วิธีอัปโหลด GitHub Pages
 
-1. เปิด `index.html` เพื่อดูหน้าเว็บ
-2. แก้เบอร์โทร / LINE / รูปภาพ / YouTube ใน `index.html`
-3. แก้สีและรูปแบบใน `css/style.css`
-4. อัปโหลดขึ้น GitHub
-5. เปิด GitHub Pages: Settings → Pages → Deploy from branch → main → root
-
-## จุดที่ปรับแล้ว
-
-- แยก CSS ออกจาก HTML
-- ลบข้อความทดสอบ เช่น `aaaaaaaaaa`, `zzzzzzz`
-- เพิ่ม SEO meta tags และ Open Graph
-- ปรับ Responsive มือถือ
-- ปรับ CTA โทร / LINE ให้เด่น
-- เพิ่ม `loading="lazy"` ให้รูปและวิดีโอ
-- ทำโครงสร้างพร้อมลง GitHub Pages
+1. แตกไฟล์ ZIP
+2. ลากไฟล์ทั้งหมดด้านในขึ้น Repository root
+3. กด Commit changes
+4. เปิด `https://speedcut.github.io/speedcut/`
