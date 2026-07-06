@@ -1,1 +1,3 @@
-const toggle=document.querySelector('.menu-toggle');const menu=document.querySelector('.menu');if(toggle){toggle.addEventListener('click',()=>menu.classList.toggle('open'))}document.querySelectorAll('.reveal').forEach(el=>{new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')})},{threshold:.12}).observe(el)});
+function toggleMenu(){document.getElementById('nav').classList.toggle('open')}
+const io=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')})},{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
