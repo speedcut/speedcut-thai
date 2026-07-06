@@ -1,1 +1,7 @@
-const toggle=document.querySelector('.menu-toggle');const menu=document.querySelector('.menu');if(toggle){toggle.addEventListener('click',()=>menu.classList.toggle('open'))}document.querySelectorAll('.reveal').forEach(el=>{new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')})},{threshold:.12}).observe(el)});
+document.addEventListener('DOMContentLoaded', () => {
+  const toggle = document.querySelector('.menu-toggle');
+  const nav = document.querySelector('.nav');
+  if (toggle && nav) {
+    toggle.addEventListener('click', () => nav.classList.toggle('open'));
+  }
+});
